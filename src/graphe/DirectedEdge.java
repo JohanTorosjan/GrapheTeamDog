@@ -1,4 +1,4 @@
-package Graphe;
+package graphe;
 public class DirectedEdge extends Edge{
 
     private int source;

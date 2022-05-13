@@ -1,4 +1,4 @@
-package Graphe;
+package graphe;
 import java.util.Random;
 
  public class Edge{

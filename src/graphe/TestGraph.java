@@ -1,6 +1,4 @@
-package Graphe;
-
-import java.util.Arrays;
+package graphe;
 
 /**
  * Test class - (main class)

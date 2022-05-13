@@ -1,4 +1,4 @@
-package Graphe;
+package graphe;
 public interface Graph{
 
 
@@ -32,7 +32,13 @@ public interface Graph{
      */
     public void addEdge(Vertex vertex1,Vertex vertex2,String EdgeKind);
 
-  
+    /**
+     * 
+     * @param vertex Le premier sommet
+     * @param vertex2 Le deuxiemme sommet 
+     * @return True si les 2 sommets indiqués en paramètre sont connectés 
+     */
+    public boolean isConnected(Vertex vertex,Vertex vertex2);
     /**
      * 
      * @return True si tout les sommets sont connectés 

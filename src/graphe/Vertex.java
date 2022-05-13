@@ -1,4 +1,4 @@
-package Graphe;
+package graphe;
 import java.util.Random;
 
 public class Vertex{
@@ -38,6 +38,14 @@ public class Vertex{
      */
     public Color getColor(){
         return this.color;
+    }
+
+    /**
+     * 
+     * @return L'id du vertex
+     */
+    public int getId(){
+        return this.id;
     }
 
     /**
