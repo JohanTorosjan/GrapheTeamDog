@@ -5,7 +5,7 @@ import java.util.Random;
     
     private int id;
     private Color color;
-    public Vertex[] ends;
+    public Vertex[] ends = new Vertex[2];
     private double value;
 
     static int genererInt(int borneInf, int borneSup){

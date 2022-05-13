@@ -7,10 +7,10 @@ import java.util.Arrays;
  */
 public class TestGraph {
     public static void main(String[] args) {
+       
         Vertex myVertex = new Vertex("an info", Color.BLANC);
-        new DirectedEdge(Color.BLEU,myVertex,myVertex,3.8,1);
-        new Edge(Color.ROUGE,myVertex,myVertex,6.2);
-        System.out.println(myVertex.toString());
-        System.out.println("Ceci est un affichage");
+        DirectedEdge myDirectedEdge=new DirectedEdge(Color.BLEU,myVertex,myVertex,3.8,1);
+        Edge myEdge=new Edge(Color.ROUGE,myVertex,myVertex,6.2);
+        System.out.println("Tout s'est bien passé ;)");
     }
 }
